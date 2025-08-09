@@ -18,7 +18,7 @@ public class CarreraRepositorio {
     }
 
     private void inicializarDatos() {
-        carreras.add(new Carrera(secuenciaId++, "Ingeniería en sistemas", "250001", "Ingeniería", "Licenciatura", Arrays.asList("Presencial", "Virtual"), true, "No hay descripción" ));
+        carreras.add(new Carrera(secuenciaId++, "Derecho", "250015", "Derecho", "Licenciatura", Arrays.asList("Hibrida"), true, "Jornada Vespertina y fin de semana" ));
     }
 
     public List<Carrera> listar() {

@@ -3,6 +3,7 @@ package com.darwinruiz.edujspapp.repositories;
 import com.darwinruiz.edujspapp.models.Profesor;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -25,7 +26,7 @@ public class ProfesorRepositorio {
                 "Masculino",
                 true,
                 "Historia",
-                Collections.singletonList("cursos"),
+                Arrays.asList("Historia, Matemática"),
                 "",
                 "27/01/2024"
         ));

@@ -32,6 +32,7 @@ public class AlumnoControlador extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         String accion = request.getParameter("accion");
 
         if ("guardar".equals(accion)) {
